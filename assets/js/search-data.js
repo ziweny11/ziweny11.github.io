@@ -39,14 +39,14 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "cv",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
+          description: "CV page is currently under construction.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
           },
         },{id: "nav-teaching",
           title: "teaching",
-          description: "Materials for courses you taught. Replace this text with your description.",
+          description: "Teaching experience and course materials.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";
@@ -440,30 +440,30 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-started-my-graduate-studies-at-carnegie-mellon-university-excited-to-work-on-cutting-edge-computer-vision-and-robotics-research",
+          title: 'Started my graduate studies at Carnegie Mellon University! 🎓 Excited to work on...',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-our-paper-photoreg-photometrically-registering-3d-gaussian-splatting-models-has-been-accepted-to-arxiv",
+          title: 'Our paper PhotoReg: Photometrically Registering 3D Gaussian Splatting Models has been accepted to...',
+          description: "",
+          section: "News",},{id: "news-photoreg-project-release",
+          title: 'PhotoReg Project Release',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
-          description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+            },},{id: "projects-photoreg",
+          title: 'PhotoReg',
+          description: "Photometrically Registering 3D Gaussian Splatting Models",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+            },},{id: "projects-hudlingo",
+          title: 'HUDLingo',
+          description: "Real-time translation for foreign games",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+            },},{id: "projects-stopcorn",
+          title: 'stopCorn',
+          description: "Chrome extension to break bad habits",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
             },},{id: "projects-project-4",
@@ -501,7 +501,14 @@ ninja.data = [{
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%79%6F%75@%65%78%61%6D%70%6C%65.%63%6F%6D", "_blank");
+          window.open("mailto:%74%6F%6D%79%75%61%31%31@%67%6D%61%69%6C.%63%6F%6D", "_blank");
+        },
+      },{
+        id: 'social-github',
+        title: 'GitHub',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://github.com/ziweny11", "_blank");
         },
       },{
         id: 'social-inspire',
@@ -509,6 +516,13 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://inspirehep.net/authors/1010907", "_blank");
+        },
+      },{
+        id: 'social-linkedin',
+        title: 'LinkedIn',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.linkedin.com/in/ziwen-tom-yuan-187512234", "_blank");
         },
       },{
         id: 'social-rss',
@@ -522,7 +536,7 @@ ninja.data = [{
         title: 'Google Scholar',
         section: 'Socials',
         handler: () => {
-          window.open("https://scholar.google.com/citations?user=qc6CJjYAAAAJ", "_blank");
+          window.open("https://scholar.google.com/citations?user=z_JxxyAAAAAJ", "_blank");
         },
       },{
         id: 'social-custom_social',
