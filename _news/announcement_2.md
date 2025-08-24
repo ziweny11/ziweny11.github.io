@@ -1,33 +1,37 @@
 ---
 layout: post
-title: A long announcement with details
-date: 2015-11-07 16:11:00-0400
+title: PhotoReg Project Release
+date: 2024-10-07 16:11:00-0400
 inline: false
 related_posts: false
 ---
 
-Announcements and news can be much longer than just quick inline posts. In fact, they can have all the features available for the standard blog posts. See below.
+We are excited to announce the release of **PhotoReg**, our novel framework for photometrically registering multiple 3D Gaussian Splatting models. This work represents a significant step forward in multi-robot collaboration and environment representation.
 
 ---
 
-Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.
+## What is PhotoReg?
 
-#### Hipster list
+PhotoReg addresses a critical challenge in robotics: how can multiple robots build and share coherent, photorealistic representations of their environments? Traditional approaches struggle with scale consistency and photometric alignment when fusing multiple 3D reconstructions.
 
-<ul>
-    <li>brunch</li>
-    <li>fixie</li>
-    <li>raybans</li>
-    <li>messenger bag</li>
-</ul>
+Our framework leverages the duality between photorealistic reconstructions and 3D foundation models to achieve high-quality registration. By actively enforcing scale consistency and using fine-grained photometric losses, PhotoReg produces unified 3DGS models that maintain photorealistic quality.
 
-Hoodie Thundercats retro, tote bag 8-bit Godard craft beer gastropub. Truffaut Tumblr taxidermy, raw denim Kickstarter sartorial dreamcatcher. Quinoa chambray slow-carb salvia readymade, bicycle rights 90's yr typewriter selfies letterpress cardigan vegan.
+## Key Features
+
+- **Scale Consistency**: Active enforcement using depth estimates within 3DGS models
+- **Photometric Registration**: Iterative refinement with fine-grained photometric losses
+- **Foundation Model Integration**: Bridges photorealistic reconstructions and 3D structure prediction
+- **Real-world Validation**: Tested on benchmark datasets and custom-collected data with quadruped robots
+
+## Impact
+
+This work enables robot teams to collaboratively build comprehensive environment models, making human-robot collaboration more intuitive and effective. The photorealistic nature of these models allows for better human inspection and understanding of robotic environments.
 
 ---
 
-Pug heirloom High Life vinyl swag, single-origin coffee four dollar toast taxidermy reprehenderit fap distillery master cleanse locavore. Est anim sapiente leggings Brooklyn ea. Thundercats locavore excepteur veniam eiusmod. Raw denim Truffaut Schlitz, migas sapiente Portland VHS twee Bushwick Marfa typewriter retro id keytar.
+## Get Involved
 
-> We do not grow absolutely, chronologically. We grow sometimes in one dimension, and not in another, unevenly. We grow partially. We are relative. We are mature in one realm, childish in another.
-> —Anais Nin
+The code is now available on [GitHub](https://github.com/ziweny11/PhotoRegCodes), and you can read the full paper on [arXiv](https://arxiv.org/abs/2410.05044). We welcome contributions and feedback from the robotics and computer vision communities.
 
-Fap aliqua qui, scenester pug Echo Park polaroid irony shabby chic ex cardigan church-key Odd Future accusamus. Blog stumptown sartorial squid, gastropub duis aesthetic Truffaut vero. Pinterest tilde twee, odio mumblecore jean shorts lumbersexual.
+> "The future of robotics lies in collaboration - both between robots and between humans and robots. PhotoReg brings us one step closer to that vision."
+> —Research Team

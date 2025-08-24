@@ -1,25 +1,21 @@
 ---
 layout: page
-title: project 1
-description: with background image
+title: PhotoReg
+description: Photometrically Registering 3D Gaussian Splatting Models
 img: assets/img/12.jpg
 importance: 1
-category: work
-related_publications: true
+category: research
+related_publications: yuan2024photoreg
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+**PhotoReg** is a novel framework for registering multiple 3D Gaussian Splatting (3DGS) models into coherent, unified representations. This work addresses a critical challenge in multi-robot collaboration: how can robot teams jointly build and share photorealistic environment models?
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+## Key Contributions
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+- **Scale Consistency**: Active enforcement of scale consistency among different 3DGS models using depth estimates
+- **Photometric Registration**: Iterative refinement with fine-grained photometric losses for high-quality alignment
+- **Foundation Model Integration**: Leverages 3D foundation models to bridge photorealistic reconstructions and 3D structure prediction
+- **Real-world Validation**: Rigorous evaluation on benchmark datasets and custom-collected data with quadruped robots
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">

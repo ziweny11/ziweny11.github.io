@@ -2,16 +2,18 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href='https://www.cmu.edu/'>Carnegie Mellon University</a>. Computer Science & Robotics Institute.
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Graduate Student</p>
+    <p>Computer Science Department</p>
+    <p>Robotics Institute</p>
+    <p>Carnegie Mellon University</p>
+    <p>Pittsburgh, PA 15213</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -27,8 +29,16 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a graduate student in Computer Science at Carnegie Mellon University, specializing in Computer Vision and 3D Reconstruction. My research focuses on developing novel approaches for photorealistic environment modeling and multi-robot collaboration.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Currently, I am working on **PhotoReg**, a framework for photometrically registering multiple 3D Gaussian Splatting models using 3D foundation models. This work addresses the critical challenge of fusing multiple photorealistic reconstructions into coherent, unified models that can be used by robot teams for collaborative environment understanding.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+My research interests include:
+- **3D Computer Vision**: Gaussian Splatting, 3D reconstruction, photometric registration
+- **Robotics**: Multi-robot systems, environment representation, autonomous navigation
+- **Machine Learning**: Foundation models, depth estimation, photometric optimization
+- **Computer Graphics**: Real-time rendering, photorealistic visualization
+
+I am passionate about bridging the gap between theoretical computer vision research and practical robotic applications. My work aims to enable robots to build and share hyper-realistic representations of their environments, making human-robot collaboration more intuitive and effective.
+
+When I'm not working on research, I enjoy developing open-source tools and exploring new technologies in computer vision and robotics.
