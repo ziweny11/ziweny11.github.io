@@ -6,7 +6,7 @@ subtitle: <a href='https://www.cmu.edu/'>Carnegie Mellon University</a>. Compute
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: ziwen_profile_1.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Graduate Student</p>
