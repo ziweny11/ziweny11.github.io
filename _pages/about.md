@@ -2,6 +2,8 @@
 layout: about
 title: about
 permalink: /
+nav: true
+nav_order: 1
 subtitle: <a href='https://www.cmu.edu/'>Carnegie Mellon University</a>. Computer Science & Robotics Institute.
 
 profile:
@@ -29,16 +31,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a graduate student in Computer Science at Carnegie Mellon University, specializing in Computer Vision and 3D Reconstruction. My research focuses on developing novel approaches for photorealistic environment modeling and multi-robot collaboration.
+I’m a Master student in Computer Science at Carnegie Mellon University, advised by Prof. Fernando De la Torre. I received my B.S. in Artificial Intelligence from CMU in May 2025, and previously worked with Prof. Matt Johnson-Roberson.
 
-Currently, I am working on **PhotoReg**, a framework for photometrically registering multiple 3D Gaussian Splatting models using 3D foundation models. This work addresses the critical challenge of fusing multiple photorealistic reconstructions into coherent, unified models that can be used by robot teams for collaborative environment understanding.
-
-My research interests include:
-- **3D Computer Vision**: Gaussian Splatting, 3D reconstruction, photometric registration
-- **Robotics**: Multi-robot systems, environment representation, autonomous navigation
-- **Machine Learning**: Foundation models, depth estimation, photometric optimization
-- **Computer Graphics**: Real-time rendering, photorealistic visualization
-
-I am passionate about bridging the gap between theoretical computer vision research and practical robotic applications. My work aims to enable robots to build and share hyper-realistic representations of their environments, making human-robot collaboration more intuitive and effective.
-
-When I'm not working on research, I enjoy developing open-source tools and exploring new technologies in computer vision and robotics.
+My research lies at the intersection of 3D computer vision, deep learning, and their applications, where I focus on developing novel approaches and efficient representations for photorealistic scene modeling and 3D reconstruction.
