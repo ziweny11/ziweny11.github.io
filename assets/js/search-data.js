@@ -9,12 +9,19 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-blog",
-          title: "blog",
+  },{id: "nav-about",
+          title: "about",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/blog/";
+            window.location.href = "/";
+          },
+        },{id: "nav-cv",
+          title: "cv",
+          description: "CV page is currently under construction.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/cv/";
           },
         },{id: "nav-publications",
           title: "publications",
@@ -37,26 +44,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/repositories/";
           },
-        },{id: "nav-cv",
-          title: "cv",
-          description: "CV page is currently under construction.",
+        },{id: "nav-blog",
+          title: "blog",
+          description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/cv/";
-          },
-        },{id: "nav-teaching",
-          title: "teaching",
-          description: "Teaching experience and course materials.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/teaching/";
-          },
-        },{id: "nav-people",
-          title: "people",
-          description: "members of the lab or group",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/people/";
+            window.location.href = "/blog/";
           },
         },{id: "dropdown-bookshelf",
               title: "bookshelf",
@@ -65,12 +58,19 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/books/";
               },
-            },{id: "dropdown-blog",
-              title: "blog",
+            },{id: "dropdown-people",
+              title: "people",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "/blog/";
+                window.location.href = "/people/";
+              },
+            },{id: "dropdown-teaching",
+              title: "teaching",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/teaching/";
               },
             },{id: "post-a-post-with-plotly-js",
         
@@ -81,6 +81,17 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2025/plotly/";
+          
+        },
+      },{id: "post-花开争艳",
+        
+          title: "花开争艳",
+        
+        description: "花开争艳，我若不去欣赏，倒显得我不解风情。",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/flower-notes/";
           
         },
       },{id: "post-a-post-with-image-galleries",
@@ -424,34 +435,20 @@ ninja.data = [{
             window.location.href = "/blog/2015/images/";
           
         },
-      },{id: "post-a-post-with-formatting-and-links",
-        
-          title: "a post with formatting and links",
-        
-        description: "march &amp; april, looking forward to summer",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2015/formatting-and-links/";
-          
-        },
       },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-started-my-graduate-studies-at-carnegie-mellon-university-excited-to-work-on-cutting-edge-computer-vision-and-robotics-research",
-          title: 'Started my graduate studies at Carnegie Mellon University! 🎓 Excited to work on...',
-          description: "",
-          section: "News",},{id: "news-our-paper-photoreg-photometrically-registering-3d-gaussian-splatting-models-has-been-accepted-to-arxiv",
-          title: 'Our paper PhotoReg: Photometrically Registering 3D Gaussian Splatting Models has been accepted to...',
-          description: "",
-          section: "News",},{id: "news-photoreg-project-release",
+            },},{id: "news-photoreg-project-release",
           title: 'PhotoReg Project Release',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
-            },},{id: "projects-photoreg",
+            },},{id: "news-graduated-from-carnegie-mellon-university-with-a-b-s-in-artificial-intelligence",
+          title: 'Graduated from Carnegie Mellon University with a B.S. in Artificial Intelligence! 🎓',
+          description: "",
+          section: "News",},{id: "projects-photoreg",
           title: 'PhotoReg',
           description: "Photometrically Registering 3D Gaussian Splatting Models",
           section: "Projects",handler: () => {
