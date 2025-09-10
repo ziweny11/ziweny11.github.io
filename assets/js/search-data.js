@@ -72,7 +72,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/teaching/";
               },
-            },{id: "post-a-post-with-plotly-js",
+            },{id: "post-为什么轮子瘪了",
+        
+          title: "为什么轮子瘪了？",
+        
+        description: "随记",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/note1/";
+          
+        },
+      },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
         
