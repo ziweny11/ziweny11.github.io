@@ -8,7 +8,7 @@ nav_order: 1
 
 profile:
   align: right
-  image: ziwen_profile_1.jpg
+  image: ziwen_profile_1.jpg  # Switch between: ziwen_profile_1.jpg or ziwen_profile_2.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>MSCS Student</p>
