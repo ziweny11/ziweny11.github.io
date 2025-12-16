@@ -1,6 +1,6 @@
 ---
 layout: post
-title: PhotoReg Project Release
+title: PhotoReg Released
 date: 2024-10-07 16:11:00-0400
 inline: false
 related_posts: false

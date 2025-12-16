@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-nav: true
+nav: false
 nav_order: 1
 subtitle: <a href='https://www.cmu.edu/'>Carnegie Mellon University</a>. Computer Science & Robotics Institute.
 
