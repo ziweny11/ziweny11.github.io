@@ -4,16 +4,15 @@ title: about
 permalink: /
 nav: false
 nav_order: 1
-subtitle: <a href='https://www.cmu.edu/'>Carnegie Mellon University</a>. Computer Science & Robotics Institute.
+# subtitle: <a href='https://www.cmu.edu/'>Carnegie Mellon University</a>
 
 profile:
   align: right
   image: ziwen_profile_1.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Graduate Student</p>
+    <p>MSCS Student</p>
     <p>Computer Science Department</p>
-    <p>Robotics Institute</p>
     <p>Carnegie Mellon University</p>
     <p>Pittsburgh, PA 15213</p>
 
@@ -31,6 +30,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I’m a Master student in Computer Science at Carnegie Mellon University, advised by Prof. Fernando De la Torre. I received my B.S. in Artificial Intelligence from CMU in May 2025, and previously worked with Prof. Matt Johnson-Roberson.
+I’m a MSCS student at Carnegie Mellon University, advised by Prof. Fernando De la Torre. I received my B.S. in Artificial Intelligence from CMU in 2025, and previously worked with Prof. Matt Johnson-Roberson and his amazing team.
 
-My research lies at the intersection of 3D computer vision, deep learning, and their applications, where I focus on developing novel approaches and efficient representations for photorealistic scene modeling and 3D reconstruction.
+My research lies at the intersection of 3D vision, deep learning, and their applications. I am currently interested in Gaussian Splatting, and focus on developing novel and efficient representations for photorealistic reconstruction.
