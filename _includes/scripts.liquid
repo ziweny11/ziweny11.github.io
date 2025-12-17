@@ -334,3 +334,8 @@
 {% if site.newsletter.enabled %}
   <script defer src="{{ '/assets/js/newsletter.js' | relative_url | bust_file_cache }}"></script>
 {% endif %}
+
+{% if page.layout == 'about' %}
+  <!-- Profile Image Switcher -->
+  <script defer src="{{ '/assets/js/profile-switch.js' | relative_url | bust_file_cache }}"></script>
+{% endif %}

@@ -20,10 +20,9 @@ layout: default
         {% if page.profile.image %}
           {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
           {% if page.profile.image_circular %}
-            {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
+            {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle profile-image-switchable' %}
           {% else %}
-            {% assign profile_image_class = 'img-fluid z-depth-1
-      rounded' %}
+            {% assign profile_image_class = 'img-fluid z-depth-1 rounded profile-image-switchable' %}
           {% endif %}
           {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
       30vw, 95vw"{% endcapture %}
@@ -31,6 +30,11 @@ layout: default
             include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
             cache_bust=true
           %}
+          <!-- Profile Image Switcher -->
+          <div class="profile-image-switcher" style="text-align: center; margin-top: 10px;">
+            <button class="profile-switch-dot active" data-image="ziwen_profile_1.jpg" aria-label="Switch to profile image 1" title="Profile 1"></button>
+            <button class="profile-switch-dot" data-image="ziwen_profile_2.jpg" aria-label="Switch to profile image 2" title="Profile 2"></button>
+          </div>
         {% endif %}
         {% if page.profile.more_info %}
           <div class="more-info">{{ page.profile.more_info }}</div>
