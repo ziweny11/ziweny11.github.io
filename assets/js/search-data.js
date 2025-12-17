@@ -65,7 +65,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/teaching/";
               },
-            },{id: "books-the-godfather",
+            },{id: "post-花开争艳",
+        
+          title: "花开争艳",
+        
+        description: "花开争艳，我若不去欣赏，倒显得我不解风情。",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/flower-notes/";
+          
+        },
+      },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
           section: "Books",handler: () => {
